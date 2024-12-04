@@ -22,7 +22,9 @@ git clone https://github.com/l1ttled1no/LoRaEncryption
 
 >[!NOTE]
 > The shift in Caesar cipher can be modified in main.cpp file. 
+
 > The key in Vigenère cipher can be modified in main.cpp file.
+
 First, build the main executable:
 
 ```bash
