@@ -13,7 +13,7 @@ A data encryption for communication between IoT devices (represented via LoRa).
 
 Because of the limitation of the LoRa transmission, limitation of time, and the need for a lightweight encryption algorithm, we choose to use the [Caesar cipher](https://en.wikipedia.org/wiki/Caesar_cipher) and the [Vigenère cipher](https://en.wikipedia.org/wiki/Vigen%C3%A8re_cipher) algorithm.
 
-## To build this project (Algorithm for Testing)
+### Build this project (Algorithm for Testing)
 
 1. Clone the repository: 
 
