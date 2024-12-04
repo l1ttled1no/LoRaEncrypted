@@ -1,5 +1,5 @@
 # Data Encryption via LoRa transmission
-a data encryption for communication between IoT devices (represented via LoRa). 
+A data encryption for communication between IoT devices (represented via LoRa). 
 
 > [!CAUTION]
 > Please note that the code and materials provided in this repository are intended for EDUCATIONAL purposes only and is NOT SAFE to be used in production.
