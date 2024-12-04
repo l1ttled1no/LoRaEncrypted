@@ -3,6 +3,8 @@ Encrypting and Decrypting data via LoRa transmission.
 
 > [!CAUTION]
 > Please note that the code and materials provided in this repository are intended for EDUCATIONAL purposes only and is NOT SAFE to be used in production.
+
+>[!NOTE]
 > The Dev kit we will using in this project is Arduino Uno, with a EByte E32-433T20D in this project.
 ## Background
 
@@ -21,9 +23,7 @@ git clone https://github.com/l1ttled1no/LoRaEncryption
 2. Build the project
 
 >[!NOTE]
-> The shift in Caesar cipher can be modified in main.cpp file. 
-
-> The key in Vigenère cipher can be modified in main.cpp file.
+> The shift in Caesar cipher can be modified in main.cpp file. The key in Vigenère cipher can be modified in main.cpp file.
 
 First, build the main executable:
 
@@ -31,4 +31,27 @@ First, build the main executable:
 g++ -Ilib -o main main.cpp src/*.cpp
 ```
 
-Then, 
+Then, run the executable with parameters:
+```bash
+./main [input_string]
+```
+
+For example: 
+```
+> ./main hello world
+Input: hello world
+--------------Caesar Algorithm--------------  
+Original text: hello world
+Encrypted text: rovvy*"y|vn
+Decrypted text: hello world
+--------------Vigenere Algorithm--------------
+Original text: hello world
+Encrypted text: Uvaa\e\!a\Q
+Decrypted text: hello world
+>
+```
+>[!NOTE]
+> The string can have spaces and special characters, within the [ASCII](https://www.ascii-code.com/) range of 32 to 126. 
+
+## Contributors
+@l1ttled1no (Main contributor). 
