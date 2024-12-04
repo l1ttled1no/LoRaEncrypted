@@ -2,11 +2,11 @@
 // #include <stdexcept>
 
 // ---------------------- Original Caesar ----------------------
-OriginalCaesar::OriginalCaesar(int shift) {
+Caesar::Caesar(int shift) {
     this->shift = shift % 95;
 }
 
-char *OriginalCaesar::CaesarEncryption(char *input) {
+char *Caesar::CaesarEncryption(char *input) {
     // Char range: 32-126
     unsigned int length = strlen(input);
     char *output = new char[length + 1];
@@ -25,7 +25,7 @@ char *OriginalCaesar::CaesarEncryption(char *input) {
     return output;
 }
 
-char *OriginalCaesar::CaesarDecryption(char *input) {
+char *Caesar::CaesarDecryption(char *input) {
     // Char range: 32-126
     unsigned int length = strlen(input);
     char *output = new char[length + 1];

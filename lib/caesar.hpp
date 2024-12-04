@@ -6,11 +6,11 @@
 
 using std::cout; 
 using std::endl;
-class OriginalCaesar{ 
+class Caesar{ 
     private: 
         int shift; 
     public:
-        OriginalCaesar(int shift = 5); 
+        Caesar(int shift = 5); 
         char *CaesarEncryption (char *input); 
         char *CaesarDecryption (char *input);
 }; 
