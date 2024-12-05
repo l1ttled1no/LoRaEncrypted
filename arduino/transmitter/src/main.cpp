@@ -39,8 +39,10 @@ void normalTransmit(){
 
 void normalReceive(){
   if (LoRa.available()){
-    String msg = LoRa.readStringUntil('\n');
-    Serial.println(msg);
+    char *msgChar = new char[100];
+    LoRa.readBytesUntil('\n', msgChar, 100);
+    Serial.println(msgChar);
+    delete[] msgChar;
   }
 }
 
