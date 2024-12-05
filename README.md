@@ -9,9 +9,11 @@ A data encryption for communication between IoT devices (represented via LoRa).
 
 ## Table of Contents
 - [Background](#background)
+
 - [Algorithm using in this project](#algorithm-using-in-this-project)
+    
     - [Build this project (Algorithm for Testing)](#build-this-project-algorithm-for-testing)
--[Contributors](#contributors)
+- [Contributors](#contributors)
 ## Background
 
 In the realm of Internet of Things (IoT), secure communication between devices is paramount. LoRa (Long Range) technology offers a robust solution for long-distance, low-power communication, making it ideal for IoT applications. However, the inherent limitations of LoRa, such as low data rates and limited payload sizes, necessitate the use of lightweight encryption algorithms to ensure data security without compromising performance.
