@@ -6,10 +6,8 @@
 #include <caesar.hpp>
 #include <vigenere.hpp>
 // #include <string.h>
-#define RX 2
-#define TX 3
-
-#define CAESAR_SHIFT 15
+#define RX 0
+#define TX 1
 
 #define LED 13
 
